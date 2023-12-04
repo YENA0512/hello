@@ -6,8 +6,8 @@ http
   .createServer((req, res) => {
     console.log("Requested: " + req.url);
     res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
-    res.write("<h1>docker 예제1 ho</h1>");
-    res.write("<h2>Hello node!</h2>");
+    res.write("<h1>docker 예제122 ho</h1>");
+    res.write("<h2>Hello docker!</h2>");
     res.write("<h2>나는 너무 배가 고프다</h2>");
     res.end();
   })
